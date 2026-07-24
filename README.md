@@ -85,13 +85,29 @@ fn main() {
 }
 
 
-**IMPORTANT: PLEASE READ CAREFULLY BEFORE USING THIS TOOL** This tool, RA Ultimate Cipher Analyzer, is provided 
+## License & Legal Disclaimer
 
-**solely for educational, research, and authorized security testing purposes.** It is intended to assist security professionals and researchers in analyzing encrypted files with proper permission. 
+### Open Source License
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the `LICENSE` file for full details.
 
-**USE OF THIS TOOL FOR ANY ILLEGAL OR UNAUTHORIZED ACTIVITY IS STRICTLY PROHIBITED.** The developer is not responsible for any misuse of this tool. 
+---
 
-**YOU ASSUME FULL RESPONSIBILITY** for the consequences of using this tool. The accuracy of cipher identification is not guaranteed, and results should be interpreted with caution. By using this tool, you agree to comply with all applicable laws and regulations and acknowledge that you have read and understood this disclaimer in its entirety. If you do not agree to these terms, please do not use this tool.
+### Important Legal & Usage Disclaimer
 
-## Contact
-Issues or suggestions? Open an issue or contact ventics.com.
+> **IMPORTANT: PLEASE READ CAREFULLY BEFORE USING THIS TOOL**
+
+This tool, **RA Ultimate Cipher Analyzer**, is provided **solely for educational, research, and authorized security testing purposes**. It is intended to assist security professionals and researchers in analyzing encrypted files with proper authorization.
+
+* **PROHIBITED USE:** Use of this tool for any illegal or unauthorized activity is **strictly prohibited**. The developer is not responsible for any misuse or damages caused by this software.
+* **USER RESPONSIBILITY:** You **assume full responsibility** for the consequences of using this tool. 
+* **LIMITATION OF GUARANTEE:** The accuracy of cipher identification and statistical heuristics is not guaranteed, and results should be interpreted with caution as diagnostic indicators rather than definitive cryptanalysis.
+
+By using this tool, you agree to comply with all applicable laws and regulations and acknowledge that you have read and understood this disclaimer in its entirety. **If you do not agree to these terms, do not use this tool.**
+
+---
+
+## Contact & Support
+
+Found an issue or have a feature suggestion? 
+* Open an issue on GitHub.
+* Contact us at [ventics.com](https://ventics.com).
