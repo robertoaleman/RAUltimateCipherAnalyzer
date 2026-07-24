@@ -2,7 +2,7 @@
 
 A lightweight, high-performance Rust CLI tool and library for cryptographic, entropy, and structural analysis of binary payloads and file containers.
 
-`RaUltimateCipherAnalyzer` inspects data to determine its density, distribution uniformity, and layout symmetry. It helps identify encryption status, structural metadata (such as $O(1)$ index layers), and known magic signatures—distinguishing pure cryptographic ciphers from structured binary containers.
+`RaUltimateCipherAnalyzer` inspects data to determine its density, distribution uniformity, and layout symmetry. It helps identify encryption status, structural metadata (such as O(1) index layers), and known magic signatures—distinguishing pure cryptographic ciphers from structured binary containers.
 
 ---
 
