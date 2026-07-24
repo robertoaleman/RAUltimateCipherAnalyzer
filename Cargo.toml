@@ -1,0 +1,16 @@
+[package]
+name = "ra_cipher_analyzer"
+version = "1.0.0"
+edition = "2021"
+authors = ["Roberto Aleman <ventics.com>"]
+description = "RA Ultimate Cipher Analyzer - Herramienta para análisis de entropía y detección de cifrado en archivos binarios."
+
+[dependencies]
+base64 = "0.22"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
