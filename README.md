@@ -67,22 +67,6 @@ cargo --version
 **Usage:
 Run the binary against any target file:Bash./target/release/ra_cipher_analyzer path/to/target_file.bin
 Or pass a path via cargo run:Bashcargo run --release -- sample.bin
-Code ExampleIntegrating the analyzer as a module in your own project:Rustuse ra_cipher_analyzer::RaUltimateCipherAnalyzer;
-use std::path::Path;
-
-fn main() {
-    let analyzer = RaUltimateCipherAnalyzer::new();
-    let file_path = Path::new("payload.bin");
-
-    match analyzer.analyze_file(file_path) {
-        Ok(report_lines) => {
-            for line in report_lines {
-                println!("{}", line);
-            }
-        }
-        Err(err) => eprintln!("Analysis failed: {}", err),
-    }
-}
 
 
 ## License & Legal Disclaimer
